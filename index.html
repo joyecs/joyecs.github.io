@@ -1,1 +1,742 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charet="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joye Zhang">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Joye</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+        integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css"
+        integrity="sha512-kJ30H6g4NGhWopgdseRb8wTsyllFUYIx3hiUwmGAkgA9B/JbzUBDQVr2VVlWGde6sdBVOG7oU8AL35ORDuMm8g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- <header>
+        <div class="container-fluid">-->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-inverse" style="height: 80px; background-color:#486ab5;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav col-lg-12 col-xl-12" style="height: 35px;">
+                <li class="nav-item col-xl-2 col-lg-3"><i class="fas fa-envelope" style="color:#cd6445;"></i>
+                    &nbsp;
+                    joyee816@gmail.com</li>
+                <li class="nav-item col-xl-2 col-lg-2"><i class="fas fa-phone-volume" style="color:#cd6445;"></i>
+                    &nbsp;2693620864</li>
+                <!--  <li class="nav-item col-xl-2 col-lg-2"><i class="fas fa-location-arrow"
+                        style="color:#cd6445;"></i>&nbsp;
+                    LA, CA</li>-->
+                <li class="nav-item col-xl-2 col-lg-2"><a href="#top" data-toggle="tab"> Home</a></li>
+                <!-- <li> <a href="#top" data-toggle="tab"> Home</a></li>-->
+                <li class="nav-item col-xl-2 col-lg-2"> <a href="#education" data-toggle="tab"> Education</a></li>
+                <li class="nav-item col-xl-2 col-lg-2"> <a href="#experience" data-toggle="tab">Experience</a> </li>
+                <li class="nav-item col-xl-2 col-lg-1"><a href="#porfolio" data-toggle="tab">Porfolio</a> </li>
+                <!-- <li class="nav-item col-lg-2">Keep in touch</li>     -->
+
+                <!--  <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Features</a>
+                        <a class="nav-item nav-link" href="#">Pricing</a>
+                        <a class="nav-item nav-link disabled" href="#">Disabled</a>-->
+            </div>
+        </div>
+    </nav>
+    <!--  </div>
+    </header>-->
+    <!-- Scrollmagic 
+    <div class="spacer s2"></div>
+<div class="spacer s0" id="trigger"></div>
+<div id="target">
+	<img id="plane" src="./images/fly.jpg">
+</div>
+<div class="spacer s2"></div>-->
+
+    <!-- Main -->
+            <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="row">
+            <div className="card col-lg-3 col-sm-12">
+              <img src={joye} alt="Joye" className="card-image-top"/>
+                  <div className="card-body">
+                      <h5 className="card-title">Joye Zhang</h5>
+                      <p className="card-text">You can also call me Min. That's my Chinese name. I am from
+                          Guangdong Province on China.</p>
+                      <a href="#" className="btn btn-warning">Go somewhere</a>
+                  </div>
+            </div>
+            <div className="col-lg-1"></div>
+              <div className="card col-lg-3 col-sm-12">
+                  <img src={job} alt="Joye" className="card-image-top" />
+                  <div className="card-body">
+                      <h5 className="card-title">Frontend Developer</h5>
+                      <p className="card-text">Yeah, that's my current job title! Love my job for now, still
+                          learning
+                          from my team and exploring posibilities.</p>
+                      <a href="#" className="btn btn-info">Go somewhere</a>
+                  </div>
+              </div>
+              <div className="col-lg-1"></div>
+              <div className="card col-lg-3 col-sm-12">
+                  <img src={dream} alt="Joye" className="card-image-top" />
+                  <div className="card-body">
+                      <h5 className="card-title">Dream Chaser</h5>
+                      <p className="card-text">It takes action and ongoing effort to achieve our dreams and action
+                          requires consistency.I can make it!</p>
+                      <a href="#" className="btn btn-warning">Go somewhere</a>
+                  </div>
+              </div>
+              </div>
+          </div> 
+        </div>
+    </div>
+ 
+    <div class="tab-content">
+        <div class="section container tab-pane active" id="top">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="card col-lg-3 col-sm-12">
+                            <img src="./images/profile2.jpeg" alt="Joye" class="card-image-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Joye Zhang</h5>
+                                <p class="card-text">You can also call me Min. That's my Chinese name. I am from
+                                    Guangdong
+                                    Province on China.</p>
+                                <a href="#" class="btn btn-warning">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="card col-lg-3 col-sm-12">
+                            <img src="./images/frontend.jpg" alt="Joye" class="card-image-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Frontend Developer</h5>
+                                <p class="card-text">Yeah, that's my current job title! Love my job for now, still
+                                    learning
+                                    from my team and exploring posibilities.</p>
+                                <a href="#" class="btn btn-info">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="card col-lg-3 col-sm-12">
+                            <img src="./images/dream.jpg" alt="Joye" class="card-image-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Dream Chaser</h5>
+                                <p class="card-text">It takes action and ongoing effort to achieve our dreams and action
+                                    requires consistency.I can make it!</p>
+                                <a href="#" class="btn btn-warning">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section container tab-pane" id="education">
+            <strong> <i class="fas fa-graduation-cap"></i> &nbsp; Andrews University &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp;
+                <i class="fas fa-map-marker-alt"></i> &nbsp;MI, USA</strong>
+            <br> <br>
+            Major: MBA
+            <br><br>
+            Courses: Leadership, Marketing, Economics, Financial Management, etc.
+            <br> <br>
+            GPA: <span class="badge badge-success">Excellent</span><br>
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%" aria-valuenow="95"
+                    aria-valuemin="0" aria-valuemax="100">3.9/4</div>
+            </div>
+            <hr>
+            <strong> <i class="fas fa-graduation-cap"></i> &nbsp; Guangzhou Medical University &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp;
+                <i class="fas fa-map-marker-alt"></i> &nbsp;Guangzhou, CN</strong>
+            <br> <br>
+            Major: Infomation Management & Information System
+            <br> <br>
+            Courses: C#, Java, Database, Operation System, Network Security, etc.
+            <br> <br>
+            GPA: <span class="badge badge-info">Good</span><br>
+            <div class="progress">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100">3.5/5</div>
+            </div>
+        </div>
+        <div id="experience" class="container tab-pane section">
+            <h5 class="ani_title">
+                <!--<i class="fas fa-address-card"></i> -->
+                <span class="badge badge-pill badge-success">CSS</span>&nbsp; Frontend Developer</h5>
+            <strong>Pikicode Corp.</strong> &nbsp;&nbsp;
+            LA, CA <br>
+            Responsibilites:
+            <ul>
+                <li>Design dynamic and browser compatible pages using HTML5, CSS3, Bootstrap, jQuery, JavaScript, Ajax,
+                    Json and React.</li>
+
+                <li> Process front and back-end data interactions using Python and Django. </li>
+                <li> Test and debug cross-platform and cross-device compatibility of
+                    applications and maintain large-scale web applications.</li>
+                <li> Work with teammates to update and control application version using Git.
+                </li>
+            </ul>
+
+            <h5 class="ani_title">
+                <span class="badge badge-pill badge-success">SQL</span>
+                &nbsp;SQL Database Assistant</h5>
+            <strong>Andrews University</strong> &nbsp;&nbsp;
+            Berrien Springs, MI <br>
+            Responsibilites:
+            <ul>
+                <li>Retrieved data about prospective students from database using SQL and
+                    generated weekly reports for 6 departments.</li>
+
+                <li> Process front and back-end data interactions using Python and Django. </li>
+                <li> Monitored and optimized performance of database, and analyzed
+                    reported issues thoroughly and provided optimal solution.</li>
+                <li> Supported internal staff members to use the system and resolved database related issues.
+                </li>
+            </ul>
+
+            <h5 class="ani_title">
+                <span class="badge badge-pill badge-success">JS </span>
+                &nbsp;Website Assistant </h5>
+            <strong>Mai Hai Technology Corp.</strong>&nbsp;&nbsp;
+            Guangzhou, CN <br>
+            Responsibilites:
+            <ul>
+                <li>Gathered, defined and translated client requirements into product stories and actionable tasks using
+                    Visio.</li>
+                <li> Redesigned websites to enhance user experiences using HTML, CSS, jQuery and JavaScript. </li>
+                <li> Processed requests and invoices for customers in New Zealand.
+                </li>
+            </ul>
+        </div>
+        <div id="porfolio" class="container tab-pane section">
+
+            <div class="col-12">
+                <div class="row">
+                    <!--  <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-palette fa-3x" style="color:#142686;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-tachometer-alt fa-3x" style="color:#2f5ab7;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-store fa-3x" style="color:#355d9c;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fas fa-tools fa-3x" style="color:#2f6892;"></i>
+                            </div>
+                        </div>
+                    </div>  -->
+
+                    <div class="f1_container col-lg-4 col-sm-12  col-md-6">
+                        <div class="f1_card" class="shadow">
+                            <div class="card card_front front back face">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="http://www.quickstores.net/" target="_blank" class="">
+                                            Quick Store
+                                            <span class="hover_img"><img src="./images/quick_store.png" alt=""
+                                                    class="img_thumb"></span>
+
+                                        </a> <br>
+
+                                        <small>Online E-commerce Platform</small>
+
+
+                                    </div>
+                                    <div class="card-text">
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fas fa-user-circle" style="color:orange;"></i>create account </p>
+                                        <br>
+                                        <p class="card_list" style="text-transform: capitalize;"><i class="fas fa-store"
+                                                style="color:orange;"></i> set up online store </p><br>
+                                        <p class="card_list" style="text-transform: capitalize;"><i
+                                                class="fab fa-product-hunt" style="color:orange;"></i> Store templates
+                                        </p>
+                                        <br>
+                                        <p class="card_list" style="text-transform: capitalize;"><i
+                                                class="fab fa-product-hunt" style="color:orange;"></i> Orders management
+                                        </p>
+                                        <br>
+                                        <!--<p class="card_list" style="text-transform: capitalize;" ><i class="fab fa-product-hunt" style="color:orange;"></i> </p> <br>-->
+                                        <br> <strong>Responsibilities:</strong> <br>
+                                        design frontend pages <br>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card_back back face">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="f1_container col-lg-4 col-sm-12  col-md-6">
+                        <div class="f1_card" class="shadow">
+                            <div class="card card_front front face">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="http://www.mageair.us/" target="_blank" class="">
+                                            Mage Air
+                                            <span class="hover_img"><img src="./images/mage.png" alt=""
+                                                    class="img_thumb"></span>
+                                        </a> <br>
+
+                                        <small>Online E-commerce Platform</small>
+
+
+                                    </div>
+                                    <div class="card-text">
+
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fas fa-store" style="color:#6d666f;"></i> Orders management </p>
+                                        <br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#6d666f;"></i> update products
+                                            info
+                                        </p><br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#6d666f;"></i> sell products
+                                        </p>
+                                        <br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#6d666f;"></i> sell products
+                                        </p>
+                                        <br>
+
+                                        <br> <strong>Responsibilities:</strong> <br>
+                                        dashbord style
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card_back back face">
+                                <div class="card-body">
+                                    <img src="./images/mage.png" alt=""
+                                        style="width:100%;height:350px;object-fit:cover;">
+                                </div>
+                                <div class="card-link">
+                                    <button class="btn btn-primary">Quick View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="f1_container col-lg-4 col-sm-12  col-md-6">
+                        <div class="f1_card" class="shadow">
+                            <div class="card card_front front face">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="http://www.mageair.us/" target="_blank" class="">
+                                            CRM System
+                                            <span class="hover_img"><img src="./images/mage.png" alt=""
+                                                    class="img_thumb"></span>
+                                        </a> <br>
+
+                                        <small>Customer info Management</small>
+
+
+                                    </div>
+                                    <div class="card-text">
+
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fas fa-store" style="color:#6d666f;"></i> Orders management </p>
+                                        <br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#6d666f;"></i> update products
+                                            info
+                                        </p><br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#6d666f;"></i> Customers management
+                                        </p>
+                                        <br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#6d666f;"></i> sell products
+                                        </p>
+                                        <br>
+
+                                        <br> <strong>Responsibilities:</strong> <br>
+                                        dashbord style
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card_back back face">
+                                <div class="card-body">
+                                    <img src="./images/pswater.png" alt=""
+                                        style="width:100%;height:350px;object-fit:cover;">
+                                </div>
+                                <div class="card-link">
+                                    <button class="btn btn-primary">Quick View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="f1_container col-lg-4 col-sm-12  col-md-6">
+                        <div class="f1_card" class="shadow">
+                            <div class="card card_front front face">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="#">
+                                            ERP system
+                                            <span class="hover_img"><img src="./images/package.png" alt=""
+                                                    class="img_thumb"></span>
+                                        </a></p>
+                                        <small>ERP system for a warehouse</small>
+                                    </div>
+                                    <div class="card-text">
+
+                                        <p class="card_list" style="text-transform: capitalize;"><i class="fas fa-store"
+                                                style="color:#b0279e;"></i> invoice, PO management </p> <br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#b0279e;"></i> products
+                                            management
+                                        </p><br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#b0279e;"></i> orders
+                                            management
+                                        </p><br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fab fa-product-hunt" style="color:#b0279e;"></i> customers
+                                            management
+                                        </p> <br>
+
+                                        <br><strong>Responsibilities:</strong> <br>
+                                        dashbord style
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card_back back face">
+                                <div class="card-body">
+                                    <img src="./images/package.png" alt=""
+                                        style="width:100%;height:350px;object-fit:cover;">
+                                </div>
+                                <div class="card-link">
+                                    <button class="btn btn-primary">Quick View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="f1_container col-lg-4 col-sm-12  col-md-6">
+                        <div class="f1_card" class="shadow">
+                            <div class="card card_front front face">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="http://www.quickstores.net/" target="_blank" class="">
+                                            Feiyu Express
+                                            <span class="hover_img"><img src="./images/feiyu.png" alt=""
+                                                    class="img_thumb"></span>
+                                        </a> <br>
+
+
+                                        <small>A portal for an international logistics company.</small>
+
+
+                                    </div>
+                                    <div class="card-text">
+                                        <p class="card_list" style="text-transform: capitalize;"><i class="fab fa-usps"
+                                                style="color:#1e3ce2;"></i> package delivery service online</p> <br>
+                                        <p class="card_list" style="text-transform: capitalize;"><i
+                                                class="fas fa-globe-africa" style="color:#1e3ce2;"></i>&nbsp; check
+                                            package
+                                            location</p> <br>
+                                        <p class="card_list" style="text-transform: capitalize;"><i
+                                                class="far fa-user-circle" style="color:#1e3ce2;"></i> update profie.
+                                        </p>
+                                        <br>
+                                        <p class="card_list" style="text-transform: capitalize;"><i
+                                                class="far fa-file-excel" style="color:#1e3ce2;"></i> Packages info
+                                            upload/download</p> <br>
+                                        <p class="card_list" style="text-transform: capitalize;"> <i
+                                                class="fas fa-table" style="color:#1e3ce2;"></i> View data visualization
+                                        </p> <br>
+                                        <br> <strong>Responsibilities:</strong> <br>
+                                        set Excel documents format based on clients'
+                                        requirements.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card_back back face">
+                                <div class="card-body">
+                                    <img src="./images/feiyu.png" alt=""
+                                        style="width:100%;height:350px;object-fit:cover;">
+                                </div>
+                                <div class="card-link">
+                                    <button class="btn btn-primary">Quick View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+    <!--
+                    <div class="col-lg-4 col-sm-12  col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href="http://www.mageair.us/" target="_blank" class="">
+                                        Mage Air
+                                        <span class="hover_img"><img src="./images/mage.png" alt=""
+                                                class="img_thumb"></span>
+                                    </a> <br>
+
+                                    <small>Online E-commerce Platform</small>
+
+
+                                </div>
+                                <div class="card-text">
+
+                                    <i class="fas fa-store" style="color:orange;"></i> set up online store <br>
+                                    <i class="fab fa-product-hunt" style="color:orange;"></i> sell products <br>
+                                    <strong>Responsibilities:</strong> <br>
+                                    dashbord style
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+    <!--
+            <ul class="porfolio_li">
+                <li>
+                    <a href="http://www.quickstores.net/" target="_blank" class="">
+                        Online E-commerce Platform
+                        <span class="hover_img"><img src="./images/quick_store.png" alt="" class="img_thumb"></span>
+                    </a> <br>
+                    <small>This platform allows users to
+                        <i class="fas fa-user-circle" style="color:orange;"></i> create account
+                        <i class="fas fa-store"></i> set up online store
+                        <i class="fab fa-product-hunt"></i> &nbsp;sell their products.</small>
+                    <p class="p_style">I am responsible for completing page frontend functionalities for both users and
+                        administrators.</p>
+                </li>
+                <li><a href="http://feiyuexpress.com/" class="" target="_blank">
+                        Feiyu Express
+                        <span class="hover_img"><img src="./images/feiyu.png" alt="" class="img_thumb"></span>
+                    </a> <br>
+                    <small>A portal for an international logistics company. <br>
+                        Customers can order <i class="fab fa-usps"></i> package delivery service online,
+                        <i class="fas fa-globe-africa"></i>&nbsp; check package location and
+                        <i class="far fa-user-circle"></i> update profie. <br>
+                        Administrators can manage <i class="fas fa-box-open"></i> package info,
+                        <i class="fas fa-info-circle"></i>customers info, upload and download data in
+                        <i class="far fa-file-excel"></i> Ecustomized excel and
+                        <i class="fas fa-table"></i> view data visualization.
+                    </small>
+                    <p class="p_style">I am responsible for setting Excel documents format based on clients'
+                        requirements.</p>
+                </li>
+                <li>
+                    <a href="http://www.mageair.us/" target="_blank" class="">
+                        Mage Air
+                        <span class="hover_img"><img src="./images/mage.png" alt="" class="img_thumb"></span>
+                    </a> <br>
+                    <small>E-commerce website for a local airconditioner distributor.</small>
+                    <p class="p_style">I am responsible for designing and completing dashbord style and some of the
+                        backend functions using Python, Django and JS.</p>
+                </li>
+                <li>
+                    <p class=""> <a href="#">
+                            CRM system
+                            <span class="hover_img"><img src="./images/pswater.png" alt="" class="img_thumb"></span>
+                        </a></p>
+                    <small>Customers and orders management system for PS water in westminster CA.</small>
+                    <p class="p_style"> I am responsible for designing dashboard style using Bootstrap4, Select2,
+                        Sweetalert and Toast.</p>
+                </li>
+                <li>
+                    <p class=""> <a href="#">
+                            ERP system plus E-commerce
+                            <span class="hover_img"><img src="./images/package.png" alt="" class="img_thumb"></span>
+                        </a></p>
+                    <small> ERP system for a warehouse to manage their invoice, PO, inventory, orders and products.
+                    </small><br>
+                    <p class="p_style">I am responsible for reading data in json file and format the output into the
+                        frontend page for dashboard user to operate.
+                        I use Bootstrap4 Modal a a lot to let user enter info, use Select2 a lot to customize the select
+                        elements.
+                    </p>
+                </li>
+            </ul>  
+            -->
+    <footer>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+        integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"
+        integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/fontawesome.min.js"
+        integrity="sha512-kI12xOdWTh/nL2vIx5Yf3z/kJSmY+nvdTXP2ARhepM/YGcmo/lmRGRttI3Da8FXLDw0Y9hRAyZ5JFO3NrCvvXA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+        integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
+        crossorigin="anonymous"></script>
+    <!-- scrollmagic -->
+    <!-- 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"
+        integrity="sha512-614k4+nIB+21iS2+QUeDh7T928egRNeNcjkKCdWPYmFCA3/mub3H6KoqIHAk8Pdm07S6uAPqWvXerPFVRYVB/Q=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"
+        integrity="sha512-jlbgjhSLRQsQc/bits6lHjywF3n/NLO3Sz1rwa9gsUnCOi0f0lD/yAul75UNOzIiDg35zaJJ3BKT3zo6+i9lQA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js"
+        integrity="sha512-vWutwDjKJo+VMAA7IrS/ICTmVYXRMdqtXA27MSuPxGjkbYnKeUKPrIpfsAwIXCzaSDF/qRy/L85ko/yxW0AIiA=="
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () { // wait for document ready
+            var flightpath = {
+                entry: {
+                    curviness: 1.25,
+                    autoRotate: true,
+                    values: [{
+                            x: 100,
+                            y: -20
+                        },
+                        {
+                            x: 300,
+                            y: 10
+                        }
+                    ]
+                },
+                looping: {
+                    curviness: 1.25,
+                    autoRotate: true,
+                    values: [{
+                            x: 510,
+                            y: 60
+                        },
+                        {
+                            x: 620,
+                            y: -60
+                        },
+                        {
+                            x: 500,
+                            y: -100
+                        },
+                        {
+                            x: 380,
+                            y: 20
+                        },
+                        {
+                            x: 500,
+                            y: 60
+                        },
+                        {
+                            x: 580,
+                            y: 20
+                        },
+                        {
+                            x: 620,
+                            y: 15
+                        }
+                    ]
+                },
+                leave: {
+                    curviness: 1.25,
+                    autoRotate: true,
+                    values: [{
+                            x: 660,
+                            y: 20
+                        },
+                        {
+                            x: 800,
+                            y: 130
+                        },
+                        {
+                            x: $(window).width() + 300,
+                            y: -100
+                        },
+                    ]
+                }
+            };
+            // init controller
+            var controller = new ScrollMagic.Controller();
+
+            // create tween
+            var tween = new TimelineMax()
+                .add(TweenMax.to($("#plane"), 1.2, {
+                    css: {
+                        bezier: flightpath.entry
+                    },
+                    ease: Power1.easeInOut
+                }))
+                .add(TweenMax.to($("#plane"), 2, {
+                    css: {
+                        bezier: flightpath.looping
+                    },
+                    ease: Power1.easeInOut
+                }))
+                .add(TweenMax.to($("#plane"), 1, {
+                    css: {
+                        bezier: flightpath.leave
+                    },
+                    ease: Power1.easeInOut
+                }));
+
+            // build scene
+            var scene = new ScrollMagic.Scene({
+                    triggerElement: "#trigger",
+                    duration: 500,
+                    offset: 100
+                })
+                .setPin("#target")
+                .setTween(tween)
+                .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+        })
+    </script> -->
+
+    <!-- anime js    -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script>
+        let animation_ = anime({
+            targets: '.ani_title',
+            translateX: 550,
+            direction: 'reverse',
+            delay: anime.stagger(1500, {
+                easing: 'easeInOutExpo'
+            })
+        });
+    </script>
+
+</body>
+
+</html>
