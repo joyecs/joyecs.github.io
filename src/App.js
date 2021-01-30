@@ -13,22 +13,29 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import './static/style.css';
-import {HashRouter as Router,Route} from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
 
 
 library.add(faCoffee);
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
     <div className="App">
     <TopNav />
-    <Route exact path='/' component={Home} />
-    <Route exact path='/education' component={Education} />
-    <Route exact path='/experience' component={Experience} />
-    <Route exact path='/portfolio' component={Portfolio} />
-    <Route path="/detail/:name" component={Detail}></Route>
+    <Switch>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/education' component={Education} />
+      <Route exact path='/experience' component={Experience} />
+      <Route exact path='/portfolio' component={Portfolio} />
+      <Route path="/detail/:name" component={Detail}></Route>
+    </Switch>
     </div>
+
     </Router>
   );
 }

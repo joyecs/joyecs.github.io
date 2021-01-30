@@ -25,7 +25,7 @@ function Pcard(props){
                 {list_duty}
                 <span className="card_list" ><strong>Skills:</strong></span>
                 <span className="card_list" >{props.pro.tags}</span>
-                    <a href={"/#/detail/" + props.pro.link}>
+                    <a href={"#detail/" + props.pro.link}>
                     <Button variant="outline-primary">
                         Quick View
                     </Button>

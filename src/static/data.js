@@ -23,14 +23,14 @@ const Data = {
               "Use libraries to simplify and beautify frontend design. For example, using toastr to show message with info retrived from backend. Uploading and submitting files with DropZone.",
               "Request and receive data from backend API using Ajax and show error or success message."
           ],
-          detail_code_pic: "/images/feiyu_pic1.png",
-          detail_pic: "/images/feiyu_pic.png"
+          detail_code_pic: "/images/projects/feiyu_pic1.png",
+          detail_pic: "/images/projects/feiyu.png"
       },
       {
           name: "ERP",
           url: "http://dev2.packagingchamps.com/",
           tags: "Django Form, jQuery, Bootstrap4",
-          intro: "ERP system for a warehouse.",
+          intro: "ERP system for warehouse management.",
           pic_url:"/images/logo/uslj.png",
           pro_list: [
               "invoice, PO management", "products management", "orders management", "customers management","Shopping website included"
@@ -46,14 +46,14 @@ const Data = {
           "Use Bootstrap4, HTML5, CSS to revamp style and layout for their shopping platform: http://dev2.packagingchamps.com/index/.",
           "Update shopping cart info with data getting from request session."
           ],
-          detail_code_pic: "/images/hanno_code.png",
-          detail_pic: "/images/hanno.png"
+          detail_code_pic: "/images/projects/hanno_code.png",
+          detail_pic: "/images/projects/hanno.png"
       },
       {
           name: "Quick Store",
           url: "http://www.quickstores.net/",
           tags: "Ajax, JSON, jQuery, JS",
-          intro: "ERP system for a warehouse.",
+          intro: "E-commerce Platform.",
           pic_url:"/images/logo/qcstore.png",
           pro_list: [
               "Users create account", "Set up online store ", "Products management", "orders management","Website theme selection"
@@ -67,14 +67,14 @@ const Data = {
           "Use jQuery to read and post images data to the server and show previewed images.",
           "Use Bootstrap4, HTML5, CSS to revamp style and layout.",
           "Use libraries to simplify and beautify frontend design. For example, using toastr to show message with info retrived from backend and Sweetalert to show message."],
-          detail_code_pic: "/images/feiyu_pic1.png",
-          detail_pic: "/images/quick_store_intro.png"
+          detail_code_pic: "/images/projects/feiyu_pic1.png",
+          detail_pic: "/images/projects/quick_store_intro.png"
       },
       {
           name: "Mage Air",
           url: "http://www.mageair.us/",
           tags: "HTML, CSS, React",
-          intro: "ERP system for a warehouse.",
+          intro: "E-commerce website & dashboard.",
           pic_url:"/images/logo/mage.png",
           pro_list: [
               "Online payment", "Galley", "Products management", "orders management"
@@ -90,14 +90,14 @@ const Data = {
               "Design layout of products information form using Bootstrap4, jQuery and CSS. Get data and form from backend API(Django 2.2 Form) and customize the frontend layout to improve user experience.",
               "Use libraries to simplify and beautify frontend design. For example, using Toastr to show message with info retrived from backend and Sweetalert to show message."
           ],
-          detail_code_pic: "/images/mage_code.png",
-          detail_pic: "/images/mage.png"
+          detail_code_pic: "/images/projects/mage_code.png",
+          detail_pic: "/images/projects/mage.png"
       },
       {
           name: "Climax KTV",
           url: "http://dev2.climaxktv.com/",
           tags: "Django Form, jQuery, Bootstrap4, DOM",
-          intro: "ERP system for a warehouse.",
+          intro: "Online store for KTV equip retail.",
           pic_url:"/images/logo/climax.png",
           pro_list: [
               "Orders history", "Customer info management", "Track orders ", "Import customers info using xlxs files"
@@ -109,19 +109,19 @@ const Data = {
           detail_intro: "Climax is a shopping website for a KTV equipment distributor.",
           detail_codes_intro: [
               "Build page components using React.",
-              "Use Django Paginator to manage paginated data thatâ€™s split across several pages,.",
+              "Use Django Paginator to manage paginated data that splits across several pages.",
               "Post data to backend API using Ajax. Receive message from server and interact with users by showing status messages.",
               "Design layout of products information form using Bootstrap4, jQuery and CSS. Get data and form from backend API(Django 2.2 Form) and customize the frontend layout to improve user experience.",
               "Use libraries to simplify and beautify frontend design. For example, using Toastr to show message with info retrived from backend and Sweetalert to show message. Using magnific popup to pop up large pictures and information."
           ],
-          detail_code_pic: "/images/climax_code.png",
-          detail_pic: "/images/climax_.png"
+          detail_code_pic: "/images/projects/climax_code.png",
+          detail_pic: "/images/projects/climax_.png"
       },
       {
           name: "Cat Adoption",
           url: "#",
           tags: "Django RESTful API, React, Python",
-          intro: "ERP system for a warehouse.",
+          intro: "Non-profit cats adoption portal.",
           pic_url:"/images/logo/kittyhouse.png",
           pro_list: [
               "Upload stray cats info.",
@@ -139,8 +139,8 @@ const Data = {
               "Build web API using Django RESTful API.",
               "Design frontend layout using Bootstrap4, jQuery and CSS to improve user experience.",
                   ],
-          detail_code_pic: "/images/cat_code.png",
-          detail_pic: "/images/cat_.png",
+          detail_code_pic: "/images/projects/cat_code.png",
+          detail_pic: "/images/projects/cat_.png",
           github_url: "https://github.com/minimisgo/CatAdoption.git"
       }
   ],

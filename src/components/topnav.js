@@ -15,16 +15,16 @@ function TopNav(){
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link >joyee816@gmail.com</Nav.Link>
-      <Nav.Link href="#">2693620864</Nav.Link>
-      <Nav.Link href='/#/education'> 
+      <Nav.Link href="mailto:joyee816@gmail.com">joyee816@gmail.com</Nav.Link>
+      <Nav.Link href="/">2693620864</Nav.Link>
+      <Nav.Link href='/education'> 
       Education
         {/* <BrowserRouter path='Education' component={Education}>
           <Link to='Education'>  Education</Link>
         </BrowserRouter> */}
         </Nav.Link>
-      <Nav.Link href="/#/experience">Experience</Nav.Link>
-      <Nav.Link href="/#/portfolio">Porfolio</Nav.Link>
+      <Nav.Link href="#experience">Experience</Nav.Link>
+      <Nav.Link href="#portfolio">Porfolio</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
