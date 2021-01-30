@@ -14,7 +14,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import './static/style.css';
 import {
-  BrowserRouter as Router,
+  HushRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
