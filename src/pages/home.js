@@ -58,9 +58,8 @@ function Home(){
                         Frontend Developer
                         </Card.Title>
                         <Card.Text>
-                        I love my job for now, still
-                          learning
-                          from my team and exploring posibilities.
+                        2+ years experiences of 
+                        designing and developing web applications and interfaces.
                         </Card.Text>
                         <Card.Link>
                                 
@@ -90,7 +89,9 @@ function Home(){
                         Miscellaneous
                         </Card.Title>
                         <Card.Text>
-                            Outdoor person. Both cat people and dog people. It's lovely to touch a warm and fuzzy thing!
+                            Outdoor person. 
+                            Both cat people and dog people. 
+                            It's lovely to touch a warm and fuzzy thing!
                         </Card.Text>
                         <Card.Link>
                                 

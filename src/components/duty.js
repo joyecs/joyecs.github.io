@@ -34,7 +34,7 @@ function Duty(props){
             </a>;
     }
     return(
-        <Container className="section">
+        <Container className="section duty">
                <a href={proj_.url} target="_blank" className="detail_link"> <strong >{proj_.name}</strong> </a>
             <Row>
                 <strong className="detail_pro_name">Basic project introduction:</strong>
