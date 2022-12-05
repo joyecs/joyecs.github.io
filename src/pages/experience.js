@@ -16,17 +16,19 @@ function Experience(){
                     <i className="fas fa-address-card"></i> 
                     <span className="badge badge-pill badge-success">SDE</span>&nbsp; Frontend Developer</h5>
                     <strong>Pikicode Corp.</strong> &nbsp;&nbsp;
-                    LA, CA <br></br>
+                    City of Industry, CA <br></br>
                     Responsibilites:
                     <ul>
-                        <li>Design dynamic and browser compatible pages using HTML5, CSS3, Bootstrap, jQuery, JavaScript, Ajax,
-                            Json and React.</li>
-
-                        <li> Process front and back-end data interactions using Python and Django. </li>
-                        <li> Test and debug cross-platform and cross-device compatibility of
-                            applications and maintain large-scale web applications.</li>
-                        <li> Work with teammates to update and control application version using Git.
+                        <li>
+                            Migrate CMS system from JavaScript and jQuery to React, develop new code and conduct unit test and system test. 
                         </li>
+                        <li>
+                        Develop Django templates, views and models using Django template tags, context processors, filters and RestAPI.
+                        </li>
+                        <li>
+                            Lead peer reviews front-end and back-end Python code and provide feedback to ensure optimum code quality.
+                        </li>
+                        
                     </ul>
                     </div>    
                 </Col>
