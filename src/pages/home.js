@@ -58,7 +58,7 @@ function Home(){
                         Frontend Developer
                         </Card.Title>
                         <Card.Text>
-                        2+ years experiences of 
+                        3+ years experiences of 
                         designing and developing web applications and interfaces.
                         </Card.Text>
                         <Card.Link>
