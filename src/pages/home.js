@@ -55,7 +55,7 @@ function Home(){
                         <Card.Img varient='top' src={job} className='card_img'>
                         </Card.Img>
                         <Card.Title>
-                        Frontend Developer
+                        Software Developer
                         </Card.Title>
                         <Card.Text>
                         3+ years experiences of 
