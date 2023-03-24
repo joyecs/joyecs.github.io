@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
@@ -12,17 +13,26 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "babel-loader": "^9.1.2",
     "bootstrap": "^4.6.0",
+    "css-loader": "^6.7.3",
     "jquery": "^3.5.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "3.4.3",
+    "sass": "^1.59.3",
+    "scss": "^0.2.4",
+    "sort-by": "^1.2.0",
+    "style-loader": "^3.3.2",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "dev": "webpack --mode development --watch",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,6 +56,11 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "gh-pages": "^3.1.0",
+    "sass-loader": "^13.2.1",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
   }
 }

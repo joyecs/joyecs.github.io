@@ -14,7 +14,7 @@ function Experience() {
                     <div className='piki right_info'>
                         <h5 className="ani_title">
                             <i className="fas fa-address-card"></i>
-                            <span className="badge badge-pill badge-success">SDE</span>&nbsp; Frontend Developer</h5>
+                            <span className="badge badge-pill badge-success">SDE</span>&nbsp; Software Engineer</h5>
                         <strong>Pikicode Corp.</strong> &nbsp;&nbsp;
                         City of Industry, CA <br /> 2022.10 - Now
                         Responsibilites:
@@ -30,6 +30,8 @@ function Experience() {
                             </li>
 
                         </ul>
+                        <h5> <span className="badge badge-pill badge-success">Coder</span> Front End Engineer</h5>
+                        <strong>Pikicode Corp.</strong> &nbsp;&nbsp;
                         City of Industry, CA <br /> 2020.2 - 2021.2
                         Responsibilites:
                         <ul>
@@ -62,7 +64,7 @@ function Experience() {
                             <span className="badge badge-pill badge-success">Full Stack</span>
                             &nbsp;Full Stack Software Developer </h5>
                         <strong>Naked Zebra</strong> &nbsp;&nbsp;
-                        Los Angeles, CA <br /> 2022.2 - 2022.8 
+                        Los Angeles, CA <br /> 2022.2 - 2022.8
                         Responsibilites:
                         <ul>
                             <li>
@@ -97,7 +99,7 @@ function Experience() {
                             <span className="badge badge-pill badge-success">SQL</span>
                             &nbsp;SQL Database Assistant</h5>
                         <strong>Andrews University</strong> &nbsp;&nbsp;
-                        Berrien Springs, MI <br /> 2019.5 - 2019.12 
+                        Berrien Springs, MI <br /> 2019.5 - 2019.12
                         Responsibilites:
                         <ul>
                             <li>Retrieved data about prospective students from database using SQL and
@@ -149,7 +151,7 @@ function Experience() {
                             <span className="badge badge-pill badge-success">CSS </span>
                             &nbsp;Database Assistant </h5>
                         <strong>Angel Education LLC.</strong>&nbsp;&nbsp;
-                        Guangzhou, CN <br />  2019.5 - 2019.12 
+                        Guangzhou, CN <br />  2019.5 - 2019.12
                         Responsibilites:
                         <ul>
                             <li>Used HTML, CSS, JQuery skills to assist with upgrading company website and improving customer experiences.</li>

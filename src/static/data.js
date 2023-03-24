@@ -4,7 +4,7 @@ const Data = {
       {
           name: "feiyu",
           url: "http://feiyuexpress.com/",
-          tags: "HTML, Bootstrap4, CSS, Python, Django",
+          tags: ["HTML", "Bootstrap4", "CSS", "Python", "Django"],
           intro: "International logistics company's portal.",
           pic_url:"/images/logo/feiyu.png",
           pro_list: [
@@ -28,7 +28,7 @@ const Data = {
       {
           name: "ERP",
           url: "http://dev2.packagingchamps.com/",
-          tags: "Django Form, jQuery, Bootstrap4",
+          tags: ["Django Form", "jQuery", "Bootstrap4"],
           intro: "ERP system for warehouse management.",
           pic_url:"/images/logo/uslj.png",
           pro_list: [
@@ -54,8 +54,8 @@ const Data = {
       },
       {
         name: "Cat Adoption",
-        url: "#",
-        tags: "Node.js, RESTful API, React, Python",
+        url: "",
+        tags: ["Node.js", "RESTful API", "React", "Python"],
         intro: "Non-profit cats adoption portal.",
         pic_url:"/images/logo/kittyhouse.png",
         pro_list: [
@@ -83,7 +83,7 @@ const Data = {
       {
           name: "Quick Store",
           url: "http://www.quickstores.net/",
-          tags: "Ajax, JSON, jQuery, JS",
+          tags: ["Ajax", "JSON", "jQuery", "JS"],
           intro: "E-commerce Platform.",
           pic_url:"/images/logo/qcstore.png",
           pro_list: [
@@ -105,7 +105,7 @@ const Data = {
       {
           name: "Mage Air",
           url: "http://www.mageair.us/",
-          tags: "HTML, CSS, React",
+          tags: ["HTML", "CSS", "React"],
           intro: "E-commerce website & dashboard.",
           pic_url:"/images/logo/mage.png",
           pro_list: [
@@ -127,7 +127,7 @@ const Data = {
       {
           name: "Climax KTV",
           url: "http://dev2.climaxktv.com/",
-          tags: "Django Form, jQuery, Bootstrap4, DOM",
+          tags: ["Django Form", "jQuery", "Bootstrap4", "DOM"],
           intro: "Online store for KTV equip retail.",
           pic_url:"/images/logo/climax.png",
           pro_list: [

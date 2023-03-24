@@ -3,10 +3,51 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './pages/home';
+import Education from './pages/education';
+import Experience from './pages/experience';
+import Portfolio from './pages/porfolio';
+import Detail from './components/duty';
+import Blog from './pages/blog';
+import ErrorElement from './components/error';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <ErrorElement />,
+  },
+  {
+    path: "/education",
+    element: <Education />,
+  },
+  {
+    path: "/experience",
+    element: <Experience />,
+  },
+  {
+    path: "/portfolio",
+    element: <Portfolio />,
+  },
+  {
+    path: "/portfolio/:project_name",
+    element: <Detail />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  }
+]);
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <RouterProvider
+      router={router}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
