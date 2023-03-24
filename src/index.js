@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/home';
@@ -15,7 +16,7 @@ import Detail from './components/duty';
 import Blog from './pages/blog';
 import ErrorElement from './components/error';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
