@@ -4,6 +4,7 @@ import Badge from 'react-bootstrap/Badge';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
 import { Row, Col } from 'react-bootstrap';
+import { Route, Switch, Link } from 'react-router-dom';
 
 function Project(props) {
   return (
@@ -20,9 +21,9 @@ function Project(props) {
             {props.git && <a href={props.gitlink} target="_blank"><Button variant='secondary'>GitHub</Button></a>}
           </ButtonGroup>
           <ButtonGroup className="me-2 mr-10" >
-            <a href={"/portfolio/" + props.link}>
+            <Link to={`/portfolio/${props.link}`}>
               <Button variant='success'>What I Did</Button>
-            </a>
+            </Link>
           </ButtonGroup>
 
         </div>
@@ -50,9 +51,9 @@ function Project(props) {
             {props.git && <a href={props.gitlink} target="_blank"><Button variant='secondary'>GitHub</Button></a>}
           </ButtonGroup>
           <ButtonGroup className="me-2" >
-            <a href={"/portfolio/" + props.link}>
+            <Link to={`/portfolio/${props.link}`}>
               <Button variant='success'>Detail</Button>
-            </a>
+            </Link>
           </ButtonGroup>
         </div>
       </Col>

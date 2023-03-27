@@ -17,7 +17,9 @@ import Home from './pages/home';
 import Education from './pages/education';
 import Experience from './pages/experience';
 import Portfolio from './pages/porfolio';
-import Detail from './components/duty';
+import Works from './components/works';
+import Duty from './components/duty';
+// import Duty from './components/duty';
 import Blog from './pages/blog';
 import ErrorElement from './components/error';
 
@@ -56,19 +58,9 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route path="/education" component={Education} />
         <Route path="/experience" component={Experience} />
-        <Route path="/portfolio" component={Portfolio} />
-
-        <Route
-          path="/portfolio/:project_name"
-          render={({ match }) => (
-            <Detail project_name={match.params.project_name} />
-          )}
-        />
+        <Route path="/portfolio" component={Works} />
       </Switch>
     </Router>
-    {/* <RouterProvider
-      router={router}
-    /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

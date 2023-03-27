@@ -17,6 +17,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faReact, faHtml5, faCss3Alt, faJs, faSass } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPortrait, faPhone, faMap, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 import cv_file from '../static/Resume.pdf'
+import { Link } from 'react-router-dom';
 
 library.add(fas, fab)
 
@@ -44,9 +45,9 @@ function Home() {
                     <p>
                         Highly motivated software developer with experience in web development and full stack software development. Skilled in designing and building responsive frontend pages, developing Django templates, and creating visually appealing and highly functional client-side and server-side architecture. Strong experience with JavaScript, HTML5, CSS3, Bootstrap4/5, jQuery, React, VBS, MVC, Django, SQL, GitHub, and Visual Studio.
                     </p>
-                    <a href={'/portfolio'}>
+                    <Link to={'/portfolio'}>
                         <Button variant='light'>Check My Work</Button>
-                    </a>
+                    </Link>
                 </Col>
                 <Col xs="12" md={6} lg={4}>
                     <Image thumbnail={true} src={joye} className="recent-work-img round-img"></Image>
