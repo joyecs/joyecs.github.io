@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 //   RouterProvider,
 // } from "react-router-dom";
 // import Switch from 'react-bootstrap/esm/Switch';
-import {BrowserRouter as Router, } from 'react-router-dom';
+import {HashRouter as Router, } from 'react-router-dom';
 import {  Switch, Route } from 'react-router';
 import Home from './pages/home';
 import Education from './pages/education';
