@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
+  BrowserRouter,
   createHashRouter,
   HashRouter,
   RouterProvider,
@@ -17,7 +18,7 @@ import Detail from './components/duty';
 import Blog from './pages/blog';
 import ErrorElement from './components/error';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
@@ -47,7 +48,7 @@ const router = createHashRouter([
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <HashRouter
+    <BrowserRouter
       router={router}
     />
   </React.StrictMode>,
