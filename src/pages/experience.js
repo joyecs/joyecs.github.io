@@ -30,22 +30,19 @@ function Experience() {
                             </li>
 
                         </ul>
-                        <h5> <span className="badge badge-pill badge-success">Coder</span> Front End Engineer</h5>
+                        <h5> <span className="badge badge-pill badge-success">BA</span> Business Analyst</h5>
                         <strong>Pikicode Corp.</strong> &nbsp;&nbsp;
                         City of Industry, CA <br /> 2020.2 - 2021.2
                         Responsibilites:
                         <ul>
                             <li>
-                                Debugged and conducted unit testing and cross-browser testing throughout the entire development process including design,
-                                development, and deployment.
-                                Migrate CMS system from JavaScript and jQuery to React, develop new code and conduct unit test and system test.
+                            Collected requirements from clients prepared over 30+ project’s documents and conducted data analysis with large dataset using Excel pivot table, Power BI, SQL Server Reporting Services (SSRS) and Tableau.
                             </li>
                             <li>
-                                Created and maintained modular, responsive templates and interfaces that enhance the user experience, by using HTML5,
-                                CSS, React and JavaScript libraries such as Lazy load, Magnific Popup.
+                            Communicated with 300+ clients about business workflow, system structure, system demos and end-users training and provided the latest technology solutions.
                             </li>
                             <li>
-                                Built reusable and efficient JS libraries including forms validation, carousels, and micro-animations.
+                            Developed user stories and collaborated with a 5-person development team to build API and front-end elements.
                             </li>
 
                         </ul>
@@ -61,7 +58,7 @@ function Experience() {
                 <Col md='11' lg='11'>
                     <div className='andrews right_info'>
                         <h5 className="ani_title">
-                            <span className="badge badge-pill badge-success">Full Stack</span>
+                            <span className="badge badge-pill badge-success">SDE</span>
                             &nbsp;Full Stack Software Developer </h5>
                         <strong>Naked Zebra</strong> &nbsp;&nbsp;
                         Los Angeles, CA <br /> 2022.2 - 2022.8
@@ -97,7 +94,7 @@ function Experience() {
                     <div className='andrews right_info'>
                         <h5 className="ani_title">
                             <span className="badge badge-pill badge-success">SQL</span>
-                            &nbsp;SQL Database Assistant</h5>
+                            &nbsp;Database Assistant</h5>
                         <strong>Andrews University</strong> &nbsp;&nbsp;
                         Berrien Springs, MI <br /> 2019.5 - 2019.12
                         Responsibilites:
@@ -124,14 +121,14 @@ function Experience() {
                     <div className='maihai right_info'>
                         <h5 className="ani_title">
                             <span className="badge badge-pill badge-success">JS </span>
-                            &nbsp;Website Assistant </h5>
+                            &nbsp;Front End Developer </h5>
                         <strong>Mai Hai Technology Corp.</strong>&nbsp;&nbsp;
-                        Guangzhou, CN <br /> 2018.5 - 2018.8
+                        Guangzhou, CN <br /> 2016.7 - 2018.7
                         Responsibilites:
                         <ul>
                             <li>Gathered, defined and translated client requirements into product stories and actionable tasks using
                                 Visio.</li>
-                            <li> Redesigned websites to enhance user experiences using HTML, CSS, jQuery and JavaScript. </li>
+                            <li> Built productivity features for large scale enterprise website, driving the usability and accessibility(WCAG), and user experience of both mobile and web apps to increase 30% advertisement conversion rate.</li>
                             <li> Processed requests and invoices for customers in New Zealand.
                             </li>
                         </ul>
@@ -139,7 +136,7 @@ function Experience() {
                 </Col>
             </Row>
 
-            <Row>
+            {/* <Row>
                 <Col md='1' lg='1' className="left_bar">
                     <div className="circle"></div>
                     <ProgressBar className="vertical_bar hb1">
@@ -161,7 +158,7 @@ function Experience() {
                         </ul>
                     </div>
                 </Col>
-            </Row>
+            </Row> */}
 
         </Container>
     );

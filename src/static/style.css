@@ -609,6 +609,9 @@
     justify-content: center;
     color: var(--icon-color);
 }
+.report-skills{
+    color: rgb(112, 112, 202) !important;
+}
 
 .skill-text {
     text-align: center;
